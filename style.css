@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(107, 107, 107);
+}
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #ffc017;
+}
+nav,
+#hero {
+  border-bottom: 1px solid #000000;
+  padding: 0.8em 0;
+  display: flex;
+  justify-content: center;
+}
+#hero {
+  padding: 5em 0;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+nav > div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+}
+#trending {
+  display: flex;
+  justify-content: center;
+}
+#trending > div {
+  max-width: 80%;
+}
+#trending,
+#btns {
+  border-bottom: 1px solid #eceaea;
+  padding: 2.5em 0;
+}
+#trendings {
+  width: 100%;
+}
+#logoTrend {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+#logoTrend > h3 {
+  display: inline;
+}
+#trend {
+  width: 50px;
+}
+#trends {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1em;
+}
+#trends div {
+  width: 33%;
+  display: flex;
+}
+#trends div div {
+  display: flex;
+  flex-direction: column;
+}
+#articles {
+  display: flex;
+  max-width: 50%;
+}
+#side {
+  display: flex;
+  padding-left: 2em;
+  max-width: 30%;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+#articles > div {
+  width: 100%;
+}
+#side > div {
+  width: 100%;
+}
+.bold {
+  font-weight: 700;
+}
+.black {
+  background-color: #191919;
+  color: white;
+}
+.yellow {
+  background-color: #ffc017;
+}
+.green {
+  background-color: #1a8917;
+}
+.big {
+  font-size: 3em;
+  opacity: 0.2;
+}
+h1,
+h2,
+h3,
+h4,
+a {
+  color: black;
+}
+h3,
+h4,
+a {
+  font-weight: 700;
+  text-decoration: none;
+}
+h1 {
+  font-family: "Spectral", serif;
+  font-size: 6em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1em;
+}
+h4 {
+  font-size: 1.3em;
+}
+h5 {
+  font-size: 1.1em;
+}
+h6 {
+  font-size: 0.9em;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5em;
+}
+button {
+  color: black;
+  background-color: #eceaea;
+  border: none;
+  border-radius: 15px;
+  padding: 0.5em 1em;
+}
+button:hover,
+a:hover {
+  color: #d36804;
+}
+.transparent {
+  background-color: transparent;
+}
+.large {
+  font-size: 1.3em;
+  padding: 0.7em 2em;
+  border-radius: 30px;
+  margin: 2em 0;
+}
+#articles > div > div {
+  justify-content: space-between;
+}
+#articles > div {
+  padding-top: 1.5em;
+}
+#articles div div {
+  padding: 1em 0;
+  display: flex;
+  align-self: center;
+}
+#articles div > div > div {
+  flex-direction: column;
+}
+img {
+  width: 200px;
+}
+.profilePic {
+  width: 30px;
+}
+#side {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.greenText {
+  color: #1a8917;
+}
+#links {
+  margin-top: 2em;
+}
+#links a {
+  font-weight: 400;
+  color: rgb(107, 107, 107);
+  margin: 1em;
+}
+#btns button {
+  margin: 0.3em 0.5em;
+}
+#btns p {
+  margin-top: 2em;
+}
