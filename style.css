@@ -10,21 +10,26 @@ body {
   font-style: normal;
   color: rgb(107, 107, 107);
 }
+header {
+  background-color: #ffc017;
+}
 nav {
-  position: sticky;
+  background-color: #ffc017;
+  width: 100%;
+  position: fixed;
   top: 0;
   z-index: 999;
-  background-color: #ffc017;
 }
 nav,
 #hero {
   border-bottom: 1px solid #000000;
-  padding: 0.8em 0;
+  padding: 1.5em 0;
   display: flex;
   justify-content: center;
 }
 #hero {
-  padding: 5em 0;
+  margin-top: 4em;
+  padding-top: 5em;
 }
 main {
   display: flex;
@@ -84,9 +89,6 @@ nav > div {
   display: flex;
   padding-left: 2em;
   max-width: 30%;
-  position: sticky;
-  top: 0;
-  z-index: 999;
 }
 #articles > div {
   width: 100%;
@@ -146,8 +148,7 @@ h6 {
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
   margin-bottom: 0.5em;
 }
 button {
@@ -178,22 +179,14 @@ a:hover {
 }
 #articles div div {
   padding: 1em 0;
-  display: flex;
+
   align-self: center;
-}
-#articles div > div > div {
-  flex-direction: column;
 }
 img {
   width: 200px;
 }
 .profilePic {
   width: 30px;
-}
-#side {
-  position: sticky;
-  top: 0;
-  z-index: 999;
 }
 .greenText {
   color: #1a8917;
@@ -211,4 +204,14 @@ img {
 }
 #btns p {
   margin-top: 2em;
+}
+
+h5 {
+  display: inline-block;
+}
+.flex {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1em;
+  align-items: center;
 }
