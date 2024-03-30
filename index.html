@@ -8384,6 +8384,31 @@
         });
       };
       console.log(navBarChangeNeg());
+
+      const Ms = document.getElementsByTagName("path");
+      const MsAnim = function () {
+        for (let i = 0; i < Ms.length; i++) {
+          if (i % 3 === 0 || i % 5 === 0 || i % 11 === 0 || i % 16 === 0) {
+            Ms[i].classList.add("Ms");
+          }
+        }
+      };
+      console.log(MsAnim());
+      const MsDis = function () {
+        for (let i = 0; i < Ms.length; i++) {
+          if (i % 3 === 0 || i % 5 === 0 || i % 11 === 0 || i % 16 === 0) {
+            Ms[i].classList.remove("Ms");
+          }
+        }
+      };
+      console.log(MsDis());
+
+      setInterval(() => {
+        console.log(MsAnim());
+      }, 500);
+      setInterval(() => {
+        console.log(MsDis());
+      }, 1000);
     </script>
   </body>
 </html>
