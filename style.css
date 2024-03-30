@@ -217,7 +217,9 @@ img {
 }
 .navBar {
   background-color: white;
+  transition: 1s;
 }
 .greenBtn {
   background-color: #1a8917;
+  transition: 1s;
 }
