@@ -65,24 +65,25 @@ nav > div {
 #logoTrend {
   display: flex;
   align-items: center;
-  gap: 1em;
-  margin-bottom: 2em;
+  gap: 0.5em;
+  margin-bottom: 0.5em;
 }
 #logoTrend > h3 {
   display: inline;
 }
 #trend {
-  width: 50px;
+  width: 30px;
 }
 #trends {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 1em;
+  row-gap: 1.5em;
   justify-content: space-between;
 }
 #trends > div {
-  width: 33%;
+  width: 30%;
   display: flex;
+  justify-content: flex-start;
   gap: 1.5em;
 }
 #articles {
@@ -113,12 +114,9 @@ nav > div {
 .yellow {
   background-color: #ffc017;
 }
-.green {
-  background-color: #1a8917;
-}
 .big {
   font-size: 3em;
-  opacity: 0.2;
+  opacity: 0.1;
 }
 h1,
 h2,
@@ -149,7 +147,7 @@ h4 {
   margin-bottom: 1em;
 }
 h5 {
-  font-size: 1.1em;
+  font-size: 1em;
   display: inline-block;
 }
 h6 {
@@ -183,18 +181,18 @@ a:hover {
   padding-top: 1.5em;
 }
 #articles div div {
-  padding: 1em 0;
-
+  padding: 0.9em 0;
   align-self: center;
 }
 img {
   width: 180px;
 }
 .profilePic {
-  width: 30px;
+  width: 20px;
 }
 .greenText {
   color: #1a8917;
+  font-weight: 400;
 }
 #links {
   margin-top: 2em;
@@ -215,4 +213,11 @@ img {
   justify-content: flex-start;
   gap: 1em;
   align-items: center;
+  padding-top: 1.5em;
+}
+.navBar {
+  background-color: white;
+}
+.greenBtn {
+  background-color: #1a8917;
 }
